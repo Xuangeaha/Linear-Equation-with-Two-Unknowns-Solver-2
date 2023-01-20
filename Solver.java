@@ -3,9 +3,9 @@ import java.util.InputMismatchException;
 
 public class Solver {
     public static void main(String[] args) {
-        System.out.println("一元二次方程计算器 Linear Equation with Two Unknowns Solver 2023.2.0");
-        System.out.println("????/??????????锟斤拷??OvO");
-        System.out.println("Copyright (c) 2023 ???锟斤拷??OvO");
+        System.out.println("一元二次方程计算器 Linear Equation with Two Unknowns Solver 2023.2.1");
+        System.out.println("作者/开发者：轩哥啊哈OvO");
+        System.out.println("Copyright (c) 2023 轩哥啊哈OvO");
         System.out.println("----------------------------------------------------------------------");
 
         double a = 0;
