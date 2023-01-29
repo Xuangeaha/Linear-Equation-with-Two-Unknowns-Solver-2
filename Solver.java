@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 
 public class Solver {
     public static void main(String[] args) {
-        System.out.println("一元二次方程计算器 Linear Equation with Two Unknowns Solver 2023.2.2");
+        System.out.println("一元二次方程计算器 Linear Equation with Two Unknowns Solver 2023.3");
         System.out.println("作者/开发者：轩哥啊哈OvO");
         System.out.println("Copyright (c) 2023 轩哥啊哈OvO");
         System.out.println("----------------------------------------------------------------------");
@@ -30,11 +30,21 @@ public class Solver {
         System.out.println("  请设置c的值：");
         scanner.nextLine();
         String cget = scanner.nextLine();
-        System.out.println(cget);
         String lxy = "刘续尧";
+        String glx = "葛灵萱";
 
         if (cget.equals(lxy)) {
+            equation_to_solve("刘续尧=0");
             raise_solution("解得：x=鸡儿");
+        } else if (cget.equals(glx)) {
+            equation_to_solve("葛灵萱=0");
+            raise_solution("0姐永远的0！！！");
+        } else {
+            try {
+                c = Integer.parseInt(cget);
+            } catch (Exception e) {
+                raise_solution("c的值输入有误，请重新输入。");
+            }
         }
 
         if (a == 0) {
