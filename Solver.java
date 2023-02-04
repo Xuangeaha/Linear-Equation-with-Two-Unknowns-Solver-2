@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 public class Solver {
     public static void solveIO() {
         System.out.println("一元二次方程计算器 Linear Equation with Two Unknowns Solver 2023.3.1");
-        System.out.println("作者/开发者：轩哥啊哈OvO");
+        System.out.println("作者/开发者：轩哥啊哈OvO   Java");
         System.out.println("Copyright (c) 2023 轩哥啊哈OvO");
         System.out.println("----------------------------------------------------------------------");
 
